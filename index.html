@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Popout Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Heebo:100,900|Open+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="slider">
+  <div class="slider__slide slider__slide--active" data-slide="1">
+    <div class="slider__wrap">
+      <div class="slider__back"></div>
+    </div>
+    <div class="slider__inner">
+      <div class="slider__content">
+        <h1><a href="https://www.w3docs.com/?" target="blank">Slide One</a></h1><b class="go-to-next">NEXT</b>
+      </div>
+    </div>
+  </div>
+  <div class="slider__slide" data-slide="2">
+    <div class="slider__wrap">
+      <div class="slider__back"></div>
+    </div>
+    <div class="slider__inner">
+      <div class="slider__content">
+        <h1><a href="URL" target="blank">Slide Two</a></h1><b class="go-to-next">NEXT</b>
+        <p class="go-to-previous"></p>
+      </div>
+    </div>
+  </div>
+  <div class="slider__slide" data-slide="3">
+    <div class="slider__wrap">
+      <div class="slider__back"></div>
+    </div>
+    <div class="slider__inner">
+      <div class="slider__content">
+       <h1><a href="URL">Slide Three</a></h1><b class="go-to-next">NEXT</b>
+       <p class="go-to-previous"></p>
+      </div>
+    </div>
+  </div>
+  <div class="slider__indicators"></div>
+</div>
+<audio id="myAudio" src="YRTH.mp3" preload="auto">
+</audio>
+<a class="sig" onClick="togglePlay()">CLICK HERE TO LISTEN</a>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+<!-- partial -->
+</body>
+</html>
