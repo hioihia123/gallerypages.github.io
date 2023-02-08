@@ -253,7 +253,7 @@ body {
   }
 }
 .slider__slide:nth-child(1) .slider__back, .slider__slide:nth-child(1) .slider__inner {
-  background-image: url(https://unsplash.it/1600/800/?image=931);
+  background-image: url(https://raw.githubusercontent.com/hioihia123/gallerypages.github.io/main/426875.jpg);
 }
 .slider__slide:nth-child(2) .slider__back, .slider__slide:nth-child(2) .slider__inner {
   background-image: url(https://unsplash.it/1600/800/?image=976);
